@@ -19,7 +19,7 @@ font-family: 'Roboto', sans-serif;
     --primary-btn-bg: #E02C6D;
     --Gray-50: #787885;
     --card-price-font-size: 24px;
-    --card-dec-font-size: 14px;
+    --card-des-font-size: 14px;
 }
 
 * {
@@ -213,11 +213,10 @@ ul li a svg {
     margin-bottom: 5px;
 }
 
-.card-dec,
-.card-rating {
+.card-rating, .card-des {
     color: var(--Gray-50);
     font-family: var(--card-des-font-family);
-    font-size: var(--card-dec-font-size);
+    font-size: var(--card-des-font-size);
     font-weight: 700;
     line-height: 143%;
     letter-spacing: 0.252px;
@@ -230,6 +229,7 @@ ul li a svg {
 }
 
 
+/* feature section style here  */
 
 
 
