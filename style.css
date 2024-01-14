@@ -50,9 +50,7 @@ a {
     width: 1190px !important;
     margin: 0 auto;
     height: 100px;
-    border: 1px solid tomato;
     padding-top: 50px;
-
 }
 
 .nav-bar {
@@ -88,4 +86,7 @@ ul li a {
 
 li:last-child a {
     padding-right: 0;
+}
+ul li a svg {
+    margin-bottom: -8px;
 }
