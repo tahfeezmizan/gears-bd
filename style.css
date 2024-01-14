@@ -156,3 +156,49 @@ ul li a svg {
     border-image: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
     border-image-slice: 1;
 }
+
+.products-title {
+    font-size: var(--primary-font-size);
+    text-align: center;
+    color: #3A3A3A;
+    font-family: var(--primary-font-family);
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 47px;
+}
+
+.product-card-container{
+    display: grid;
+    gap: 35px;
+    padding: 0 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product-card {
+    padding: 17px 15px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
