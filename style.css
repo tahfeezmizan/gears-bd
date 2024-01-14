@@ -60,7 +60,8 @@ a {
 
 /* header section style  */
 #header,
-#banner {
+#banner,
+#sponsper {
     width: 1190px !important;
     margin: 0 auto;
     padding-top: 50px;
@@ -132,12 +133,27 @@ ul li a svg {
     padding-right: 13rem;
     margin-bottom: 18px;
 }
+
 .primary-btn i {
     padding-left: 10px;
 }
 
-
 .banner-content-bg {
     background: url(images/Circle\ design.svg) no-repeat center;
     background-size: cover;
+}
+
+
+/* sponsor section style here  */
+
+.sponsor-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+    border-image-slice: 1;
+    /* border-image: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%); */
 }
