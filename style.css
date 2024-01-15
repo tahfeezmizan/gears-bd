@@ -175,7 +175,7 @@ ul li a svg {
 .product-card-container {
     display: grid;
     gap: 35px;
-    padding: 0 30px;
+    padding: 0 18px;
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -331,11 +331,11 @@ ul li a svg {
     .banner-container {
         align-items: start;
         gap: 100px;
-        height: 80vh;
+        height: 120vh;
         flex-direction: column-reverse;
     }
     .banner-img{
-        max-width: 80;
+        max-width: 80%;
     }
     .banner-content {
         text-align: center;
@@ -369,6 +369,7 @@ ul li a svg {
 
     .product-card-container {
         grid-template-columns: repeat(1, 1fr);
+        padding: 0 18px;
         align-items: center;
     }
     
