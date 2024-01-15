@@ -313,7 +313,9 @@ ul li a svg {
 
     #header,
     .container,
-    #sponsper {
+    #sponsper,
+    #Products,
+    #footer {
         width: 100% !important;
     }
 
@@ -332,7 +334,9 @@ ul li a svg {
         height: 80vh;
         flex-direction: column-reverse;
     }
-
+    .banner-img{
+        max-width: 80;
+    }
     .banner-content {
         text-align: center;
     }
@@ -354,10 +358,33 @@ ul li a svg {
         justify-content: center;
         gap: 25px;
     }
-
-    .sponsor-container img {
+    
+    .sponsor-container img,
+    .feature-img {
         max-width: 80%;
         text-align: center;
+    }
+
+    /* product section design here  */
+
+    .product-card-container {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    
+
+    /* feature section design  */
+
+    .feature-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .feature-title {
+        font-size: 26px;
+        line-height: 51px;
+    }
+    .feature-des {
+        padding: 0px 17px;
     }
 
 }
