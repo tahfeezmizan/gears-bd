@@ -162,6 +162,8 @@ ul li a svg {
     border-image-slice: 1;
 }
 
+
+/* product section style here  */
 .products-title {
     font-size: var(--primary-font-size);
     text-align: center;
