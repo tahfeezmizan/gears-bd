@@ -145,6 +145,12 @@ ul li a svg {
 .banner-content-bg {
     background: url(images/Circle\ design.svg) no-repeat center;
     background-size: contain;
+    height: 53vh;
+    text-align: center;
+    vertical-align: middle;
+}
+.banner-img {
+    margin: 50px;
 }
 
 
@@ -336,8 +342,8 @@ ul li a svg {
         height: 82vh;
         flex-direction: column-reverse;
     }
-    .banner-img{
-        max-width: 80%;
+    .banner-img {
+        margin: 5px;
     }
     .banner-content {
         text-align: center;
@@ -374,8 +380,9 @@ ul li a svg {
         padding: 0 18px;
         align-items: center;
     }
-    .product-card img {
-        width: 100%;
+    .product-card img,
+    .feature-img {
+        width: 100% !important;
     }
 
     /* feature section design  */
