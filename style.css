@@ -231,6 +231,7 @@ ul li a svg {
     font-weight: var(--primary-font-weight);
     line-height: 143%;
     letter-spacing: 0.252px;
+    margin-bottom: 20px;
 }
 
 .product-btn {
